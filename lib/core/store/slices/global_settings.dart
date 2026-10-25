@@ -23,7 +23,7 @@ class GlobalSettings {
     this.skipDocumentPreprarationOnUpload = false,
     this.disableAnimations = false,
     this.knownHosts = const [],
-    this.preferredScanner = ScannerImplementation.edgeDetection,
+    this.preferredScanner = ScannerImplementation.mlKit,
   });
 
   final String preferredLocaleSubtag;
